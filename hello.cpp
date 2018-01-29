@@ -1,11 +1,11 @@
-//include library
+// import library
 #include <iostream>
-//read through library using std type
+// read through library using std type
 using namespace std;
-//create main function using int
+// create main function using int
 int main(void)
-//output function
+// return main function
 {
-    cout <<"AKLJDLAJSDLADLAJLIQRAJFSKAJDKLAD"<< endl;
+    cout << "..." << endl;
     return 0;
 }
