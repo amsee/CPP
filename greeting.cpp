@@ -7,7 +7,7 @@ int main(void)
 // return integer
 {
     // declare name with 10 spaces
-    char name[10]; 
+    char name[15]; 
     cout << "Hello there, what is your name?: " << endl;
     cin >> name;
 
