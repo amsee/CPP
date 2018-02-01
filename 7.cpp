@@ -1,22 +1,29 @@
+// read from library
 #include <iostream>
 using namespace std;
 
-void food(void);
-void fish(void);
+// mini functions / function definition
+void lean(void);
+void isweird(void);
 
+// write main function 
 int main(void)
 {
-    food();
-    fish();
+    lean();
     return 0;
 }
 
-void food(void)
+ void lean()
+ 
 {
-    cout << "calling food" << endl;
+    isweird(); 
+    cout << "Lean is the weirdest frken person on this universe." << endl;
 }
 
-void fish(void)
+void isweird()
+
 {
-    cout << "calling fish" << endl;
+    cout << "Yes. Lean" << endl;
 }
+
+// semi colon tells the compiler that the line is done
