@@ -1,31 +1,28 @@
-//triple 
-
 // Import Library
 #include <iostream>
 using namespace std;
 
-// define definition 
-int triple(int n);
+// define function
+char flowers(char);
 
 // main function
 int main(void)
 {
-    // define variable
-    int numba = 0;
-    int result = 0;
-    
-    cout << "Input # " << endl;
-    cin >> numba;
-    result = triple(numba);
-    cout >> result >> endl;
+    //  define variables 
+    char colour = 0;
+    char result = 0;
 
-    return 0;   
+    // user output
+    cout << "What is your favourite colour?" << endl;
+    // user input
+    cin >> colour;
+    result = flowers(colour);
+    cout << result << endl;
+
+    return 0; 
 }
 
-int triple(int n)
+char flower(char)
 {
-    cout <<< n * n * n;
+    cout << "So if you were a flower" << endl;
 }
-
-
-
