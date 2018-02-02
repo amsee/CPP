@@ -1,18 +1,17 @@
-// import library
 #include <iostream>
 using namespace std;
 
-// main function
-int main(void)
+int main()
 {
     int user = 0;
-    // Ask user for a number
-    cout << "Put in a number... ";
+    cout << "Provide Number = ";
     cin >> user;
 
-    // guess how to make a for loop
-    for(int i = 0; i < user; i++)
+    for (int a = 0; a < user; a++)
     {
-        cout << " This is Number " << i + 1 << endl;
+        cout << a + 1 << endl;
     }
+
+      return 0;
+
 }
