@@ -13,7 +13,7 @@ int main(void)
     cin >> number; // return an integer to user
     result = triple(number); // call function
     cout << result << endl;
-    return 0;
+    return 0; 
 }
 // Declare Function
 int triple(int n)
