@@ -17,5 +17,3 @@ for (int i = user; i != user; i++) // (i is never less than user)
 }
     return 0;
 }
-// return 0
-
