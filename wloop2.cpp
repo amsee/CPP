@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     // local variable declaration 
-    int x = 20;
+    int x = 50;
 
     // while loop execution
     while (x > 0)
