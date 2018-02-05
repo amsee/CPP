@@ -9,10 +9,10 @@ int main()
     cout << "Here are your numbers: ";
     cin >> person;
     // execute for loop -> init, condition; increment
-    for (int zxc = person; zxc > person; zxc++)
+    while(person != 0)
     {
-        cout << person << zxc + 1 << endl;
-
+        person = person - 2;
+        cout << person << endl;
     }
 
     return 0;
